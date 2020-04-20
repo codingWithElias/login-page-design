@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    max-width: 400px;
+    width: 90%;
+    min-height: 500px;
+    border: 2px solid #0088FF;
+    box-shadow: 0 0 10px #007CDA, 0 0 10px #007CDA, 0 0 10px #007CDA;
+    border-radius: 10px;
+}
+.form .logo {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    margin-bottom: 70px;
+}
+.form-ctrl {
+    display: flex;
+    margin: 20px auto;
+}
+
+.form-ctrl input {
+    display: inline-block;
+    flex: 1;
+    padding: 9px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: transparent;
+    border: 2px solid #0088FF;
+    box-shadow: 0 0 10px #007CDA, 0 0 10px #007CDA, 0 0 10px #007CDA;
+    border-right: none;
+    outline: none;
+    font-size: 18px;
+    color: #0088FF;
+    padding-left: 20px;
+    transition: box-shadow 1s, color 1s;
+}
+.form-ctrl input:hover, .form-ctrl input:focus {
+    border: 2px solid transparent;
+    color: #FCAA2E;
+    box-shadow: 0 0 10px #FCAA2E, 0 0 10px #FCAA2E, 0 0 10px #FCAA2E;
+}
+::placeholder {
+    color: #0088FF;
+    opacity: .9;
+}
+.form-ctrl img {
+    width: 40px;
+    display: block;
+    margin: 0px 20px;
+}
+.r {
+    margin-top: 60px;
+}
+.r input {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: none;
+    border-right: 2px solid #0088FF;
+}
+.form .btn {
+    display: block;
+    width: 200px;
+    background: transparent;
+    border: 2px solid #0088FF;
+    color: #0088FF;
+    padding: 7px;
+    font-size: 22px;
+    margin: 50px auto;
+    margin-top: 90px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #007CDA, 0 0 10px #007CDA, 0 0 10px #007CDA;
+    cursor: pointer;
+    transition: box-shadow 1s, color 1s;
+}
+.form .btn:hover {
+    border: 2px solid transparent;
+    color: #FCAA2E;
+    box-shadow: 0 0 10px #FCAA2E, 0 0 10px #FCAA2E, 0 0 10px #FCAA2E;
+}
